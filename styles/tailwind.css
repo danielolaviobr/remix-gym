@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+@media screen and (display-mode: standalone) {
+  header {
+    height: 120px !important;
+  }
+
+  body {
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+  }
+}
